@@ -248,7 +248,7 @@ section{
   margin-left: 300px;
   color: $font_color2;
   width: 100%;
-  // position: relative;
+  position: relative;
   main{
 
     background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8) 100%);
@@ -259,9 +259,9 @@ section{
       // height: 100vh;
       margin: 0 auto;
       padding: 0;
-      // position: absolute;
-      // top: 0;
-      // left: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
 
 
       video{
@@ -581,7 +581,6 @@ section{
       align-items: center;
       .header_left{
         .header_menu{
-          // display: none;
           background-color:rgba(0, 0, 0, 0.8);
           width: 100vw;
           height: 100vh;
@@ -589,7 +588,6 @@ section{
           top: 0;
           left: -120%;
           &.active{
-            // display: block;
             left: 0;
           }
         }
@@ -606,6 +604,7 @@ section{
           overflow-y: auto;
           &.active{
             left: 0;
+            opacity: 1;
             // width: 300px;
           }
           ul{

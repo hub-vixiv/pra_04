@@ -215,6 +215,7 @@ section {
   margin-left: 300px;
   color: #ffffff;
   width: 100%;
+  position: relative;
 }
 .wrap main {
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8) 100%);
@@ -228,6 +229,9 @@ section {
   width: auto;
   margin: 0 auto;
   padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .wrap main .movi video {
   width: 100%;
@@ -528,6 +532,7 @@ section {
   }
   .header .header_top .header_left .nav.active {
     left: 0;
+    opacity: 1;
   }
   .header .header_top .header_left .nav ul {
     background-color: #ffffff;
